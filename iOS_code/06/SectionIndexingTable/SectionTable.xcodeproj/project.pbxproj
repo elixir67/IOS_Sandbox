@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA118B8314FDBF8800A6306B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA118B8214FDBF8800A6306B /* UIKit.framework */; };
+		EA118B8514FDBF8800A6306B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA118B8414FDBF8800A6306B /* Foundation.framework */; };
+		EA118B8714FDBF8800A6306B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA118B8614FDBF8800A6306B /* CoreGraphics.framework */; };
+		EA118B8D14FDBF8800A6306B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EA118B8B14FDBF8800A6306B /* InfoPlist.strings */; };
+		EA118B8F14FDBF8800A6306B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA118B8E14FDBF8800A6306B /* main.m */; };
+		EA118B9314FDBF8800A6306B /* SimpleTableAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA118B9214FDBF8800A6306B /* SimpleTableAppDelegate.m */; };
+		EA118B9614FDBF8800A6306B /* SimpleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA118B9514FDBF8800A6306B /* SimpleTableViewController.m */; };
+		EA118B9914FDBF8800A6306B /* SimpleTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA118B9714FDBF8800A6306B /* SimpleTableViewController.xib */; };
+		EA118BA014FDC0BC00A6306B /* 足球队dictionary.plist in Resources */ = {isa = PBXBuildFile; fileRef = EA118B9F14FDC0BC00A6306B /* 足球队dictionary.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EA118B7E14FDBF8800A6306B /* SectionTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SectionTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA118B8214FDBF8800A6306B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EA118B8414FDBF8800A6306B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EA118B8614FDBF8800A6306B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EA118B8A14FDBF8800A6306B /* SectionTable-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SectionTable-Info.plist"; sourceTree = "<group>"; };
+		EA118B8C14FDBF8800A6306B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EA118B8E14FDBF8800A6306B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA118B9014FDBF8800A6306B /* SectionTable-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SectionTable-Prefix.pch"; sourceTree = "<group>"; };
+		EA118B9114FDBF8800A6306B /* SimpleTableAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleTableAppDelegate.h; sourceTree = "<group>"; };
+		EA118B9214FDBF8800A6306B /* SimpleTableAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleTableAppDelegate.m; sourceTree = "<group>"; };
+		EA118B9414FDBF8800A6306B /* SimpleTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleTableViewController.h; sourceTree = "<group>"; };
+		EA118B9514FDBF8800A6306B /* SimpleTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleTableViewController.m; sourceTree = "<group>"; };
+		EA118B9814FDBF8800A6306B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SimpleTableViewController.xib; sourceTree = "<group>"; };
+		EA118B9F14FDC0BC00A6306B /* 足球队dictionary.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "足球队dictionary.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA118B7B14FDBF8800A6306B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA118B8314FDBF8800A6306B /* UIKit.framework in Frameworks */,
+				EA118B8514FDBF8800A6306B /* Foundation.framework in Frameworks */,
+				EA118B8714FDBF8800A6306B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA118B7314FDBF8700A6306B = {
+			isa = PBXGroup;
+			children = (
+				EA118B8814FDBF8800A6306B /* SectionTable */,
+				EA118B8114FDBF8800A6306B /* Frameworks */,
+				EA118B7F14FDBF8800A6306B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA118B7F14FDBF8800A6306B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA118B7E14FDBF8800A6306B /* SectionTable.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA118B8114FDBF8800A6306B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA118B8214FDBF8800A6306B /* UIKit.framework */,
+				EA118B8414FDBF8800A6306B /* Foundation.framework */,
+				EA118B8614FDBF8800A6306B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA118B8814FDBF8800A6306B /* SectionTable */ = {
+			isa = PBXGroup;
+			children = (
+				EA118B9F14FDC0BC00A6306B /* 足球队dictionary.plist */,
+				EA118B9114FDBF8800A6306B /* SimpleTableAppDelegate.h */,
+				EA118B9214FDBF8800A6306B /* SimpleTableAppDelegate.m */,
+				EA118B9414FDBF8800A6306B /* SimpleTableViewController.h */,
+				EA118B9514FDBF8800A6306B /* SimpleTableViewController.m */,
+				EA118B9714FDBF8800A6306B /* SimpleTableViewController.xib */,
+				EA118B8914FDBF8800A6306B /* Supporting Files */,
+			);
+			path = SectionTable;
+			sourceTree = "<group>";
+		};
+		EA118B8914FDBF8800A6306B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA118B8A14FDBF8800A6306B /* SectionTable-Info.plist */,
+				EA118B8B14FDBF8800A6306B /* InfoPlist.strings */,
+				EA118B8E14FDBF8800A6306B /* main.m */,
+				EA118B9014FDBF8800A6306B /* SectionTable-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA118B7D14FDBF8800A6306B /* SectionTable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA118B9C14FDBF8800A6306B /* Build configuration list for PBXNativeTarget "SectionTable" */;
+			buildPhases = (
+				EA118B7A14FDBF8800A6306B /* Sources */,
+				EA118B7B14FDBF8800A6306B /* Frameworks */,
+				EA118B7C14FDBF8800A6306B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SectionTable;
+			productName = SectionTable;
+			productReference = EA118B7E14FDBF8800A6306B /* SectionTable.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA118B7514FDBF8700A6306B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = EA118B7814FDBF8700A6306B /* Build configuration list for PBXProject "SectionTable" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EA118B7314FDBF8700A6306B;
+			productRefGroup = EA118B7F14FDBF8800A6306B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA118B7D14FDBF8800A6306B /* SectionTable */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA118B7C14FDBF8800A6306B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA118B8D14FDBF8800A6306B /* InfoPlist.strings in Resources */,
+				EA118B9914FDBF8800A6306B /* SimpleTableViewController.xib in Resources */,
+				EA118BA014FDC0BC00A6306B /* 足球队dictionary.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA118B7A14FDBF8800A6306B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA118B8F14FDBF8800A6306B /* main.m in Sources */,
+				EA118B9314FDBF8800A6306B /* SimpleTableAppDelegate.m in Sources */,
+				EA118B9614FDBF8800A6306B /* SimpleTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EA118B8B14FDBF8800A6306B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA118B8C14FDBF8800A6306B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EA118B9714FDBF8800A6306B /* SimpleTableViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA118B9814FDBF8800A6306B /* en */,
+			);
+			name = SimpleTableViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA118B9A14FDBF8800A6306B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EA118B9B14FDBF8800A6306B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA118B9D14FDBF8800A6306B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SectionTable/SectionTable-Prefix.pch";
+				INFOPLIST_FILE = "SectionTable/SectionTable-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EA118B9E14FDBF8800A6306B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SectionTable/SectionTable-Prefix.pch";
+				INFOPLIST_FILE = "SectionTable/SectionTable-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA118B7814FDBF8700A6306B /* Build configuration list for PBXProject "SectionTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA118B9A14FDBF8800A6306B /* Debug */,
+				EA118B9B14FDBF8800A6306B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA118B9C14FDBF8800A6306B /* Build configuration list for PBXNativeTarget "SectionTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA118B9D14FDBF8800A6306B /* Debug */,
+				EA118B9E14FDBF8800A6306B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA118B7514FDBF8700A6306B /* Project object */;
+}

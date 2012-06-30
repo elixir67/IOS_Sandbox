@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA64800D14FF680900E5F858 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA64800C14FF680900E5F858 /* UIKit.framework */; };
+		EA64800F14FF680900E5F858 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA64800E14FF680900E5F858 /* Foundation.framework */; };
+		EA64801114FF680900E5F858 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA64801014FF680900E5F858 /* CoreGraphics.framework */; };
+		EA64801714FF680900E5F858 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EA64801514FF680900E5F858 /* InfoPlist.strings */; };
+		EA64801914FF680900E5F858 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA64801814FF680900E5F858 /* main.m */; };
+		EA64801D14FF680900E5F858 /* StudentSQLite3AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA64801C14FF680900E5F858 /* StudentSQLite3AppDelegate.m */; };
+		EA64802014FF680900E5F858 /* StudentSQLite3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA64801F14FF680900E5F858 /* StudentSQLite3ViewController.m */; };
+		EA64802314FF680900E5F858 /* StudentSQLite3ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA64802114FF680900E5F858 /* StudentSQLite3ViewController.xib */; };
+		EA64802D14FF687700E5F858 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EA64802C14FF687700E5F858 /* libsqlite3.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EA64800814FF680900E5F858 /* StudentSQLite3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudentSQLite3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA64800C14FF680900E5F858 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EA64800E14FF680900E5F858 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EA64801014FF680900E5F858 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EA64801414FF680900E5F858 /* StudentSQLite3-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StudentSQLite3-Info.plist"; sourceTree = "<group>"; };
+		EA64801614FF680900E5F858 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EA64801814FF680900E5F858 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA64801A14FF680900E5F858 /* StudentSQLite3-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StudentSQLite3-Prefix.pch"; sourceTree = "<group>"; };
+		EA64801B14FF680900E5F858 /* StudentSQLite3AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StudentSQLite3AppDelegate.h; sourceTree = "<group>"; };
+		EA64801C14FF680900E5F858 /* StudentSQLite3AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StudentSQLite3AppDelegate.m; sourceTree = "<group>"; };
+		EA64801E14FF680900E5F858 /* StudentSQLite3ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StudentSQLite3ViewController.h; sourceTree = "<group>"; };
+		EA64801F14FF680900E5F858 /* StudentSQLite3ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StudentSQLite3ViewController.m; sourceTree = "<group>"; };
+		EA64802214FF680900E5F858 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/StudentSQLite3ViewController.xib; sourceTree = "<group>"; };
+		EA64802C14FF687700E5F858 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA64800514FF680900E5F858 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA64802D14FF687700E5F858 /* libsqlite3.dylib in Frameworks */,
+				EA64800D14FF680900E5F858 /* UIKit.framework in Frameworks */,
+				EA64800F14FF680900E5F858 /* Foundation.framework in Frameworks */,
+				EA64801114FF680900E5F858 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA647FFD14FF680900E5F858 = {
+			isa = PBXGroup;
+			children = (
+				EA64801214FF680900E5F858 /* StudentSQLite3 */,
+				EA64800B14FF680900E5F858 /* Frameworks */,
+				EA64800914FF680900E5F858 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA64800914FF680900E5F858 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA64800814FF680900E5F858 /* StudentSQLite3.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA64800B14FF680900E5F858 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA64802C14FF687700E5F858 /* libsqlite3.dylib */,
+				EA64800C14FF680900E5F858 /* UIKit.framework */,
+				EA64800E14FF680900E5F858 /* Foundation.framework */,
+				EA64801014FF680900E5F858 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA64801214FF680900E5F858 /* StudentSQLite3 */ = {
+			isa = PBXGroup;
+			children = (
+				EA64801B14FF680900E5F858 /* StudentSQLite3AppDelegate.h */,
+				EA64801C14FF680900E5F858 /* StudentSQLite3AppDelegate.m */,
+				EA64801E14FF680900E5F858 /* StudentSQLite3ViewController.h */,
+				EA64801F14FF680900E5F858 /* StudentSQLite3ViewController.m */,
+				EA64802114FF680900E5F858 /* StudentSQLite3ViewController.xib */,
+				EA64801314FF680900E5F858 /* Supporting Files */,
+			);
+			path = StudentSQLite3;
+			sourceTree = "<group>";
+		};
+		EA64801314FF680900E5F858 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA64801414FF680900E5F858 /* StudentSQLite3-Info.plist */,
+				EA64801514FF680900E5F858 /* InfoPlist.strings */,
+				EA64801814FF680900E5F858 /* main.m */,
+				EA64801A14FF680900E5F858 /* StudentSQLite3-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA64800714FF680900E5F858 /* StudentSQLite3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA64802614FF680900E5F858 /* Build configuration list for PBXNativeTarget "StudentSQLite3" */;
+			buildPhases = (
+				EA64800414FF680900E5F858 /* Sources */,
+				EA64800514FF680900E5F858 /* Frameworks */,
+				EA64800614FF680900E5F858 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StudentSQLite3;
+			productName = StudentSQLite3;
+			productReference = EA64800814FF680900E5F858 /* StudentSQLite3.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA647FFF14FF680900E5F858 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = EA64800214FF680900E5F858 /* Build configuration list for PBXProject "StudentSQLite3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EA647FFD14FF680900E5F858;
+			productRefGroup = EA64800914FF680900E5F858 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA64800714FF680900E5F858 /* StudentSQLite3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA64800614FF680900E5F858 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA64801714FF680900E5F858 /* InfoPlist.strings in Resources */,
+				EA64802314FF680900E5F858 /* StudentSQLite3ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA64800414FF680900E5F858 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA64801914FF680900E5F858 /* main.m in Sources */,
+				EA64801D14FF680900E5F858 /* StudentSQLite3AppDelegate.m in Sources */,
+				EA64802014FF680900E5F858 /* StudentSQLite3ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EA64801514FF680900E5F858 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA64801614FF680900E5F858 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EA64802114FF680900E5F858 /* StudentSQLite3ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA64802214FF680900E5F858 /* en */,
+			);
+			name = StudentSQLite3ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA64802414FF680900E5F858 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EA64802514FF680900E5F858 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA64802714FF680900E5F858 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StudentSQLite3/StudentSQLite3-Prefix.pch";
+				INFOPLIST_FILE = "StudentSQLite3/StudentSQLite3-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EA64802814FF680900E5F858 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StudentSQLite3/StudentSQLite3-Prefix.pch";
+				INFOPLIST_FILE = "StudentSQLite3/StudentSQLite3-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA64800214FF680900E5F858 /* Build configuration list for PBXProject "StudentSQLite3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA64802414FF680900E5F858 /* Debug */,
+				EA64802514FF680900E5F858 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA64802614FF680900E5F858 /* Build configuration list for PBXNativeTarget "StudentSQLite3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA64802714FF680900E5F858 /* Debug */,
+				EA64802814FF680900E5F858 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA647FFF14FF680900E5F858 /* Project object */;
+}

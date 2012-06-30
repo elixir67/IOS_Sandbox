@@ -1,0 +1,279 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA647FAE14FF58BB00E5F858 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA647FAD14FF58BB00E5F858 /* UIKit.framework */; };
+		EA647FB014FF58BB00E5F858 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA647FAF14FF58BB00E5F858 /* Foundation.framework */; };
+		EA647FB214FF58BB00E5F858 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA647FB114FF58BB00E5F858 /* CoreGraphics.framework */; };
+		EA647FB814FF58BB00E5F858 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EA647FB614FF58BB00E5F858 /* InfoPlist.strings */; };
+		EA647FBA14FF58BB00E5F858 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA647FB914FF58BB00E5F858 /* main.m */; };
+		EA647FBE14FF58BB00E5F858 /* PropertesListAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA647FBD14FF58BB00E5F858 /* PropertesListAppDelegate.m */; };
+		EA647FC114FF58BB00E5F858 /* PropertesListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA647FC014FF58BB00E5F858 /* PropertesListViewController.m */; };
+		EA647FC414FF58BB00E5F858 /* PropertesListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA647FC214FF58BB00E5F858 /* PropertesListViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EA647FA914FF58BB00E5F858 /* PropertesList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PropertesList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA647FAD14FF58BB00E5F858 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EA647FAF14FF58BB00E5F858 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EA647FB114FF58BB00E5F858 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EA647FB514FF58BB00E5F858 /* PropertesList-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PropertesList-Info.plist"; sourceTree = "<group>"; };
+		EA647FB714FF58BB00E5F858 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EA647FB914FF58BB00E5F858 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA647FBB14FF58BB00E5F858 /* PropertesList-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PropertesList-Prefix.pch"; sourceTree = "<group>"; };
+		EA647FBC14FF58BB00E5F858 /* PropertesListAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PropertesListAppDelegate.h; sourceTree = "<group>"; };
+		EA647FBD14FF58BB00E5F858 /* PropertesListAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PropertesListAppDelegate.m; sourceTree = "<group>"; };
+		EA647FBF14FF58BB00E5F858 /* PropertesListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PropertesListViewController.h; sourceTree = "<group>"; };
+		EA647FC014FF58BB00E5F858 /* PropertesListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PropertesListViewController.m; sourceTree = "<group>"; };
+		EA647FC314FF58BB00E5F858 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PropertesListViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA647FA614FF58BB00E5F858 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA647FAE14FF58BB00E5F858 /* UIKit.framework in Frameworks */,
+				EA647FB014FF58BB00E5F858 /* Foundation.framework in Frameworks */,
+				EA647FB214FF58BB00E5F858 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA647F9E14FF58BB00E5F858 = {
+			isa = PBXGroup;
+			children = (
+				EA647FB314FF58BB00E5F858 /* PropertesList */,
+				EA647FAC14FF58BB00E5F858 /* Frameworks */,
+				EA647FAA14FF58BB00E5F858 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA647FAA14FF58BB00E5F858 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA647FA914FF58BB00E5F858 /* PropertesList.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA647FAC14FF58BB00E5F858 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA647FAD14FF58BB00E5F858 /* UIKit.framework */,
+				EA647FAF14FF58BB00E5F858 /* Foundation.framework */,
+				EA647FB114FF58BB00E5F858 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA647FB314FF58BB00E5F858 /* PropertesList */ = {
+			isa = PBXGroup;
+			children = (
+				EA647FBC14FF58BB00E5F858 /* PropertesListAppDelegate.h */,
+				EA647FBD14FF58BB00E5F858 /* PropertesListAppDelegate.m */,
+				EA647FBF14FF58BB00E5F858 /* PropertesListViewController.h */,
+				EA647FC014FF58BB00E5F858 /* PropertesListViewController.m */,
+				EA647FC214FF58BB00E5F858 /* PropertesListViewController.xib */,
+				EA647FB414FF58BB00E5F858 /* Supporting Files */,
+			);
+			path = PropertesList;
+			sourceTree = "<group>";
+		};
+		EA647FB414FF58BB00E5F858 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA647FB514FF58BB00E5F858 /* PropertesList-Info.plist */,
+				EA647FB614FF58BB00E5F858 /* InfoPlist.strings */,
+				EA647FB914FF58BB00E5F858 /* main.m */,
+				EA647FBB14FF58BB00E5F858 /* PropertesList-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA647FA814FF58BB00E5F858 /* PropertesList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA647FC714FF58BB00E5F858 /* Build configuration list for PBXNativeTarget "PropertesList" */;
+			buildPhases = (
+				EA647FA514FF58BB00E5F858 /* Sources */,
+				EA647FA614FF58BB00E5F858 /* Frameworks */,
+				EA647FA714FF58BB00E5F858 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PropertesList;
+			productName = PropertesList;
+			productReference = EA647FA914FF58BB00E5F858 /* PropertesList.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA647FA014FF58BB00E5F858 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = EA647FA314FF58BB00E5F858 /* Build configuration list for PBXProject "PropertesList" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EA647F9E14FF58BB00E5F858;
+			productRefGroup = EA647FAA14FF58BB00E5F858 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA647FA814FF58BB00E5F858 /* PropertesList */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA647FA714FF58BB00E5F858 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA647FB814FF58BB00E5F858 /* InfoPlist.strings in Resources */,
+				EA647FC414FF58BB00E5F858 /* PropertesListViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA647FA514FF58BB00E5F858 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA647FBA14FF58BB00E5F858 /* main.m in Sources */,
+				EA647FBE14FF58BB00E5F858 /* PropertesListAppDelegate.m in Sources */,
+				EA647FC114FF58BB00E5F858 /* PropertesListViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EA647FB614FF58BB00E5F858 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA647FB714FF58BB00E5F858 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EA647FC214FF58BB00E5F858 /* PropertesListViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA647FC314FF58BB00E5F858 /* en */,
+			);
+			name = PropertesListViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA647FC514FF58BB00E5F858 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EA647FC614FF58BB00E5F858 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA647FC814FF58BB00E5F858 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PropertesList/PropertesList-Prefix.pch";
+				INFOPLIST_FILE = "PropertesList/PropertesList-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EA647FC914FF58BB00E5F858 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PropertesList/PropertesList-Prefix.pch";
+				INFOPLIST_FILE = "PropertesList/PropertesList-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA647FA314FF58BB00E5F858 /* Build configuration list for PBXProject "PropertesList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA647FC514FF58BB00E5F858 /* Debug */,
+				EA647FC614FF58BB00E5F858 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA647FC714FF58BB00E5F858 /* Build configuration list for PBXNativeTarget "PropertesList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA647FC814FF58BB00E5F858 /* Debug */,
+				EA647FC914FF58BB00E5F858 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA647FA014FF58BB00E5F858 /* Project object */;
+}

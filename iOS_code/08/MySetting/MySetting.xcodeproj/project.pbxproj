@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA526EA814FF19C800728F4A /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EA526EA714FF19C800728F4A /* Settings.bundle */; };
+		EA526EAB14FF1E7300728F4A /* app-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EA526EAA14FF1E7300728F4A /* app-icon.png */; };
+		EA890A1214FF0D890046392B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA890A1114FF0D890046392B /* UIKit.framework */; };
+		EA890A1414FF0D890046392B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA890A1314FF0D890046392B /* Foundation.framework */; };
+		EA890A1614FF0D890046392B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA890A1514FF0D890046392B /* CoreGraphics.framework */; };
+		EA890A1C14FF0D8A0046392B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EA890A1A14FF0D8A0046392B /* InfoPlist.strings */; };
+		EA890A1E14FF0D8A0046392B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA890A1D14FF0D8A0046392B /* main.m */; };
+		EA890A2214FF0D8A0046392B /* MySettingAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA890A2114FF0D8A0046392B /* MySettingAppDelegate.m */; };
+		EA890A2514FF0D8A0046392B /* MySettingMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA890A2414FF0D8A0046392B /* MySettingMainViewController.m */; };
+		EA890A2814FF0D8A0046392B /* MySettingFlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA890A2714FF0D8A0046392B /* MySettingFlipsideViewController.m */; };
+		EA890A2B14FF0D8A0046392B /* MySettingMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA890A2914FF0D8A0046392B /* MySettingMainViewController.xib */; };
+		EA890A2E14FF0D8A0046392B /* MySettingFlipsideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA890A2C14FF0D8A0046392B /* MySettingFlipsideViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EA526EA714FF19C800728F4A /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		EA526EAA14FF1E7300728F4A /* app-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app-icon.png"; sourceTree = "<group>"; };
+		EA890A0D14FF0D890046392B /* MySetting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySetting.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA890A1114FF0D890046392B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EA890A1314FF0D890046392B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EA890A1514FF0D890046392B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EA890A1914FF0D8A0046392B /* MySetting-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MySetting-Info.plist"; sourceTree = "<group>"; };
+		EA890A1B14FF0D8A0046392B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EA890A1D14FF0D8A0046392B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA890A1F14FF0D8A0046392B /* MySetting-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MySetting-Prefix.pch"; sourceTree = "<group>"; };
+		EA890A2014FF0D8A0046392B /* MySettingAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MySettingAppDelegate.h; sourceTree = "<group>"; };
+		EA890A2114FF0D8A0046392B /* MySettingAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MySettingAppDelegate.m; sourceTree = "<group>"; };
+		EA890A2314FF0D8A0046392B /* MySettingMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MySettingMainViewController.h; sourceTree = "<group>"; };
+		EA890A2414FF0D8A0046392B /* MySettingMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MySettingMainViewController.m; sourceTree = "<group>"; };
+		EA890A2614FF0D8A0046392B /* MySettingFlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MySettingFlipsideViewController.h; sourceTree = "<group>"; };
+		EA890A2714FF0D8A0046392B /* MySettingFlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MySettingFlipsideViewController.m; sourceTree = "<group>"; };
+		EA890A2A14FF0D8A0046392B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MySettingMainViewController.xib; sourceTree = "<group>"; };
+		EA890A2D14FF0D8A0046392B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MySettingFlipsideViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA890A0A14FF0D890046392B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA890A1214FF0D890046392B /* UIKit.framework in Frameworks */,
+				EA890A1414FF0D890046392B /* Foundation.framework in Frameworks */,
+				EA890A1614FF0D890046392B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA890A0214FF0D880046392B = {
+			isa = PBXGroup;
+			children = (
+				EA526EAA14FF1E7300728F4A /* app-icon.png */,
+				EA890A1714FF0D890046392B /* MySetting */,
+				EA890A1014FF0D890046392B /* Frameworks */,
+				EA890A0E14FF0D890046392B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA890A0E14FF0D890046392B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA890A0D14FF0D890046392B /* MySetting.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA890A1014FF0D890046392B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA890A1114FF0D890046392B /* UIKit.framework */,
+				EA890A1314FF0D890046392B /* Foundation.framework */,
+				EA890A1514FF0D890046392B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA890A1714FF0D890046392B /* MySetting */ = {
+			isa = PBXGroup;
+			children = (
+				EA890A2014FF0D8A0046392B /* MySettingAppDelegate.h */,
+				EA890A2114FF0D8A0046392B /* MySettingAppDelegate.m */,
+				EA890A2314FF0D8A0046392B /* MySettingMainViewController.h */,
+				EA890A2414FF0D8A0046392B /* MySettingMainViewController.m */,
+				EA890A2614FF0D8A0046392B /* MySettingFlipsideViewController.h */,
+				EA890A2714FF0D8A0046392B /* MySettingFlipsideViewController.m */,
+				EA890A2914FF0D8A0046392B /* MySettingMainViewController.xib */,
+				EA890A2C14FF0D8A0046392B /* MySettingFlipsideViewController.xib */,
+				EA890A1814FF0D8A0046392B /* Supporting Files */,
+				EA526EA714FF19C800728F4A /* Settings.bundle */,
+			);
+			path = MySetting;
+			sourceTree = "<group>";
+		};
+		EA890A1814FF0D8A0046392B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA890A1914FF0D8A0046392B /* MySetting-Info.plist */,
+				EA890A1A14FF0D8A0046392B /* InfoPlist.strings */,
+				EA890A1D14FF0D8A0046392B /* main.m */,
+				EA890A1F14FF0D8A0046392B /* MySetting-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA890A0C14FF0D890046392B /* MySetting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA890A3114FF0D8A0046392B /* Build configuration list for PBXNativeTarget "MySetting" */;
+			buildPhases = (
+				EA890A0914FF0D890046392B /* Sources */,
+				EA890A0A14FF0D890046392B /* Frameworks */,
+				EA890A0B14FF0D890046392B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MySetting;
+			productName = MySetting;
+			productReference = EA890A0D14FF0D890046392B /* MySetting.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA890A0414FF0D880046392B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = EA890A0714FF0D880046392B /* Build configuration list for PBXProject "MySetting" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EA890A0214FF0D880046392B;
+			productRefGroup = EA890A0E14FF0D890046392B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA890A0C14FF0D890046392B /* MySetting */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA890A0B14FF0D890046392B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA890A1C14FF0D8A0046392B /* InfoPlist.strings in Resources */,
+				EA890A2B14FF0D8A0046392B /* MySettingMainViewController.xib in Resources */,
+				EA890A2E14FF0D8A0046392B /* MySettingFlipsideViewController.xib in Resources */,
+				EA526EA814FF19C800728F4A /* Settings.bundle in Resources */,
+				EA526EAB14FF1E7300728F4A /* app-icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA890A0914FF0D890046392B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA890A1E14FF0D8A0046392B /* main.m in Sources */,
+				EA890A2214FF0D8A0046392B /* MySettingAppDelegate.m in Sources */,
+				EA890A2514FF0D8A0046392B /* MySettingMainViewController.m in Sources */,
+				EA890A2814FF0D8A0046392B /* MySettingFlipsideViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EA890A1A14FF0D8A0046392B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA890A1B14FF0D8A0046392B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EA890A2914FF0D8A0046392B /* MySettingMainViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA890A2A14FF0D8A0046392B /* en */,
+			);
+			name = MySettingMainViewController.xib;
+			sourceTree = "<group>";
+		};
+		EA890A2C14FF0D8A0046392B /* MySettingFlipsideViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA890A2D14FF0D8A0046392B /* en */,
+			);
+			name = MySettingFlipsideViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA890A2F14FF0D8A0046392B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EA890A3014FF0D8A0046392B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA890A3214FF0D8A0046392B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MySetting/MySetting-Prefix.pch";
+				INFOPLIST_FILE = "MySetting/MySetting-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EA890A3314FF0D8A0046392B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MySetting/MySetting-Prefix.pch";
+				INFOPLIST_FILE = "MySetting/MySetting-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA890A0714FF0D880046392B /* Build configuration list for PBXProject "MySetting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA890A2F14FF0D8A0046392B /* Debug */,
+				EA890A3014FF0D8A0046392B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA890A3114FF0D8A0046392B /* Build configuration list for PBXNativeTarget "MySetting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA890A3214FF0D8A0046392B /* Debug */,
+				EA890A3314FF0D8A0046392B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA890A0414FF0D880046392B /* Project object */;
+}

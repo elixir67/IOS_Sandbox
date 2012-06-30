@@ -1,0 +1,279 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA2FD4181500658A00640985 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA2FD4171500658A00640985 /* UIKit.framework */; };
+		EA2FD41A1500658A00640985 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA2FD4191500658A00640985 /* Foundation.framework */; };
+		EA2FD41C1500658A00640985 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA2FD41B1500658A00640985 /* CoreGraphics.framework */; };
+		EA2FD4221500658A00640985 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EA2FD4201500658A00640985 /* InfoPlist.strings */; };
+		EA2FD4241500658A00640985 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2FD4231500658A00640985 /* main.m */; };
+		EA2FD4281500658A00640985 /* PostAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2FD4271500658A00640985 /* PostAppDelegate.m */; };
+		EA2FD42B1500658A00640985 /* PostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2FD42A1500658A00640985 /* PostViewController.m */; };
+		EA2FD42E1500658A00640985 /* PostViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA2FD42C1500658A00640985 /* PostViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EA2FD4131500658A00640985 /* POSTSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = POSTSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA2FD4171500658A00640985 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EA2FD4191500658A00640985 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EA2FD41B1500658A00640985 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EA2FD41F1500658A00640985 /* POSTSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "POSTSample-Info.plist"; sourceTree = "<group>"; };
+		EA2FD4211500658A00640985 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EA2FD4231500658A00640985 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA2FD4251500658A00640985 /* POSTSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "POSTSample-Prefix.pch"; sourceTree = "<group>"; };
+		EA2FD4261500658A00640985 /* PostAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PostAppDelegate.h; sourceTree = "<group>"; };
+		EA2FD4271500658A00640985 /* PostAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PostAppDelegate.m; sourceTree = "<group>"; };
+		EA2FD4291500658A00640985 /* PostViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PostViewController.h; sourceTree = "<group>"; };
+		EA2FD42A1500658A00640985 /* PostViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PostViewController.m; sourceTree = "<group>"; };
+		EA2FD42D1500658A00640985 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PostViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA2FD4101500658A00640985 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA2FD4181500658A00640985 /* UIKit.framework in Frameworks */,
+				EA2FD41A1500658A00640985 /* Foundation.framework in Frameworks */,
+				EA2FD41C1500658A00640985 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA2FD4081500658A00640985 = {
+			isa = PBXGroup;
+			children = (
+				EA2FD41D1500658A00640985 /* POSTSample */,
+				EA2FD4161500658A00640985 /* Frameworks */,
+				EA2FD4141500658A00640985 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA2FD4141500658A00640985 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA2FD4131500658A00640985 /* POSTSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA2FD4161500658A00640985 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA2FD4171500658A00640985 /* UIKit.framework */,
+				EA2FD4191500658A00640985 /* Foundation.framework */,
+				EA2FD41B1500658A00640985 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA2FD41D1500658A00640985 /* POSTSample */ = {
+			isa = PBXGroup;
+			children = (
+				EA2FD4261500658A00640985 /* PostAppDelegate.h */,
+				EA2FD4271500658A00640985 /* PostAppDelegate.m */,
+				EA2FD4291500658A00640985 /* PostViewController.h */,
+				EA2FD42A1500658A00640985 /* PostViewController.m */,
+				EA2FD42C1500658A00640985 /* PostViewController.xib */,
+				EA2FD41E1500658A00640985 /* Supporting Files */,
+			);
+			path = POSTSample;
+			sourceTree = "<group>";
+		};
+		EA2FD41E1500658A00640985 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA2FD41F1500658A00640985 /* POSTSample-Info.plist */,
+				EA2FD4201500658A00640985 /* InfoPlist.strings */,
+				EA2FD4231500658A00640985 /* main.m */,
+				EA2FD4251500658A00640985 /* POSTSample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA2FD4121500658A00640985 /* POSTSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA2FD4311500658A00640985 /* Build configuration list for PBXNativeTarget "POSTSample" */;
+			buildPhases = (
+				EA2FD40F1500658A00640985 /* Sources */,
+				EA2FD4101500658A00640985 /* Frameworks */,
+				EA2FD4111500658A00640985 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = POSTSample;
+			productName = POSTSample;
+			productReference = EA2FD4131500658A00640985 /* POSTSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA2FD40A1500658A00640985 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = EA2FD40D1500658A00640985 /* Build configuration list for PBXProject "POSTSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EA2FD4081500658A00640985;
+			productRefGroup = EA2FD4141500658A00640985 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA2FD4121500658A00640985 /* POSTSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA2FD4111500658A00640985 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA2FD4221500658A00640985 /* InfoPlist.strings in Resources */,
+				EA2FD42E1500658A00640985 /* PostViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA2FD40F1500658A00640985 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA2FD4241500658A00640985 /* main.m in Sources */,
+				EA2FD4281500658A00640985 /* PostAppDelegate.m in Sources */,
+				EA2FD42B1500658A00640985 /* PostViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EA2FD4201500658A00640985 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA2FD4211500658A00640985 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EA2FD42C1500658A00640985 /* PostViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA2FD42D1500658A00640985 /* en */,
+			);
+			name = PostViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA2FD42F1500658A00640985 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EA2FD4301500658A00640985 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA2FD4321500658A00640985 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "POSTSample/POSTSample-Prefix.pch";
+				INFOPLIST_FILE = "POSTSample/POSTSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EA2FD4331500658A00640985 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "POSTSample/POSTSample-Prefix.pch";
+				INFOPLIST_FILE = "POSTSample/POSTSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA2FD40D1500658A00640985 /* Build configuration list for PBXProject "POSTSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA2FD42F1500658A00640985 /* Debug */,
+				EA2FD4301500658A00640985 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA2FD4311500658A00640985 /* Build configuration list for PBXNativeTarget "POSTSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA2FD4321500658A00640985 /* Debug */,
+				EA2FD4331500658A00640985 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA2FD40A1500658A00640985 /* Project object */;
+}

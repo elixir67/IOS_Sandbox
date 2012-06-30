@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<books>
+  <book bookid="0001">
+    <bookname>软件工程</bookname>
+    <author>戴国强</author>
+    <publishing>机械工业出版社</publishing>
+    <publishingdate>19980528</publishingdate>
+    <storage>2</storage>
+  </book>
+  <book bookid="0002">
+    <bookname>汇编语言</bookname>
+    <author>李利光</author>
+    <publishing>北京大学出版社</publishing>
+    <publishingdate>19980318</publishingdate>
+    <storage>2</storage>
+  </book>
+  <book bookid="0003">
+    <bookname>计算机基础</bookname>
+    <author>王飞</author>
+    <publishing>经济科学出版社</publishing>
+    <publishingdate>19980218</publishingdate>
+    <storage>1</storage>
+  </book>
+  <book bookid="0004">
+    <bookname>FLASH精选</bookname>
+    <author>刘扬</author>
+    <publishing>中国纺织出版社</publishing>
+    <publishingdate>19990312</publishingdate>
+    <storage>2</storage>
+  </book>
+  <book bookid="0005">
+    <bookname>java基础</bookname>
+    <author>王一</author>
+    <publishing>电子工业出版社</publishing>
+    <publishingdate>19990528</publishingdate>
+    <storage>3</storage>
+  </book>
+  <book bookid="0006">
+    <bookname>世界杯</bookname>
+    <author>柳飞</author>
+    <publishing>世界出版社</publishing>
+    <publishingdate>19990412</publishingdate>
+    <storage>2</storage>
+  </book>
+  <book bookid="0007">
+    <bookname>JAVA程序设计</bookname>
+    <author>张余</author>
+    <publishing>人民邮电出版社</publishing>
+    <publishingdate>19990613</publishingdate>
+    <storage>1</storage>
+  </book>
+  <book bookid="0008">
+    <bookname>新概念3</bookname>
+    <author>余智</author>
+    <publishing>外语出版社</publishing>
+    <publishingdate>19990723</publishingdate>
+    <storage>2</storage>
+  </book>
+  <book bookid="0009">
+    <bookname>军事要闻</bookname>
+    <author>张强</author>
+    <publishing>解放军出版社</publishing>
+    <publishingdate>19990722</publishingdate>
+    <storage>3</storage>
+  </book>
+  <book bookid="0010">
+    <bookname>大众生活</bookname>
+    <author>许阳</author>
+    <publishing>人民出版社</publishing>
+    <publishingdate>19990819</publishingdate>
+    <storage>3</storage>
+  </book>
+  <book bookid="0011">
+    <bookname>隶书</bookname>
+    <author>关东升</author>
+    <publishing>北京邮电出版社</publishing>
+    <publishingdate>19990102</publishingdate>
+    <storage>12</storage>
+  </book>
+</books>

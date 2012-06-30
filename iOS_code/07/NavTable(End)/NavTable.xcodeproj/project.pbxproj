@@ -1,0 +1,370 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA8EEF9714FDF83100373D59 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA8EEF9614FDF83100373D59 /* UIKit.framework */; };
+		EA8EEF9914FDF83100373D59 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA8EEF9814FDF83100373D59 /* Foundation.framework */; };
+		EA8EEF9B14FDF83100373D59 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA8EEF9A14FDF83100373D59 /* CoreGraphics.framework */; };
+		EA8EEFA114FDF83100373D59 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EA8EEF9F14FDF83100373D59 /* InfoPlist.strings */; };
+		EA8EEFA314FDF83100373D59 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8EEFA214FDF83100373D59 /* main.m */; };
+		EA8EEFA714FDF83100373D59 /* NavTableAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8EEFA614FDF83100373D59 /* NavTableAppDelegate.m */; };
+		EA8EEFAA14FDF83100373D59 /* NavTableMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8EEFA914FDF83100373D59 /* NavTableMasterViewController.m */; };
+		EA8EEFB014FDF83100373D59 /* NavTableMasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA8EEFAE14FDF83100373D59 /* NavTableMasterViewController.xib */; };
+		EA8EEFC114FE041100373D59 /* SecondLevelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8EEFC014FE041100373D59 /* SecondLevelViewController.m */; };
+		EA8EEFE014FE0C6800373D59 /* button_down.png in Resources */ = {isa = PBXBuildFile; fileRef = EA8EEFD814FE0C6800373D59 /* button_down.png */; };
+		EA8EEFE114FE0C6800373D59 /* button_up.png in Resources */ = {isa = PBXBuildFile; fileRef = EA8EEFD914FE0C6800373D59 /* button_up.png */; };
+		EA8EEFE214FE0C6800373D59 /* checkmarkControllerIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = EA8EEFDA14FE0C6800373D59 /* checkmarkControllerIcon.png */; };
+		EA8EEFE314FE0C6800373D59 /* deleteMeIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = EA8EEFDB14FE0C6800373D59 /* deleteMeIcon.png */; };
+		EA8EEFE414FE0C6800373D59 /* detailEditIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = EA8EEFDC14FE0C6800373D59 /* detailEditIcon.png */; };
+		EA8EEFE514FE0C6800373D59 /* disclosureButtonControllerIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = EA8EEFDD14FE0C6800373D59 /* disclosureButtonControllerIcon.png */; };
+		EA8EEFE614FE0C6800373D59 /* moveMeIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = EA8EEFDE14FE0C6800373D59 /* moveMeIcon.png */; };
+		EA8EEFE714FE0C6800373D59 /* rowControlsIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = EA8EEFDF14FE0C6800373D59 /* rowControlsIcon.png */; };
+		EABF57C314FE24BF004526BA /* DisclosureButtonController.m in Sources */ = {isa = PBXBuildFile; fileRef = EABF57BF14FE24BF004526BA /* DisclosureButtonController.m */; };
+		EABF57C414FE24BF004526BA /* DisclosureDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = EABF57C114FE24BF004526BA /* DisclosureDetailController.m */; };
+		EABF57C514FE24BF004526BA /* DisclosureDetailController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EABF57C214FE24BF004526BA /* DisclosureDetailController.xib */; };
+		EABF57D714FE29E1004526BA /* CheckListController.m in Sources */ = {isa = PBXBuildFile; fileRef = EABF57D614FE29E1004526BA /* CheckListController.m */; };
+		EABF57DA14FE2E1E004526BA /* RowControlsController.m in Sources */ = {isa = PBXBuildFile; fileRef = EABF57D914FE2E1E004526BA /* RowControlsController.m */; };
+		EABF57DD14FE3443004526BA /* MoveMeController.m in Sources */ = {isa = PBXBuildFile; fileRef = EABF57DC14FE3443004526BA /* MoveMeController.m */; };
+		EABF57E014FE38E2004526BA /* DeleteMeController.m in Sources */ = {isa = PBXBuildFile; fileRef = EABF57DF14FE38E2004526BA /* DeleteMeController.m */; };
+		EABF57E214FE3939004526BA /* computers.plist in Resources */ = {isa = PBXBuildFile; fileRef = EABF57E114FE3939004526BA /* computers.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EA8EEF9214FDF83100373D59 /* NavTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA8EEF9614FDF83100373D59 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EA8EEF9814FDF83100373D59 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EA8EEF9A14FDF83100373D59 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EA8EEF9E14FDF83100373D59 /* NavTable-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NavTable-Info.plist"; sourceTree = "<group>"; };
+		EA8EEFA014FDF83100373D59 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EA8EEFA214FDF83100373D59 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA8EEFA414FDF83100373D59 /* NavTable-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NavTable-Prefix.pch"; sourceTree = "<group>"; };
+		EA8EEFA514FDF83100373D59 /* NavTableAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NavTableAppDelegate.h; sourceTree = "<group>"; };
+		EA8EEFA614FDF83100373D59 /* NavTableAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavTableAppDelegate.m; sourceTree = "<group>"; };
+		EA8EEFA814FDF83100373D59 /* NavTableMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NavTableMasterViewController.h; sourceTree = "<group>"; };
+		EA8EEFA914FDF83100373D59 /* NavTableMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavTableMasterViewController.m; sourceTree = "<group>"; };
+		EA8EEFAF14FDF83100373D59 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/NavTableMasterViewController.xib; sourceTree = "<group>"; };
+		EA8EEFBF14FE041100373D59 /* SecondLevelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondLevelViewController.h; sourceTree = "<group>"; };
+		EA8EEFC014FE041100373D59 /* SecondLevelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondLevelViewController.m; sourceTree = "<group>"; };
+		EA8EEFD814FE0C6800373D59 /* button_down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_down.png; sourceTree = "<group>"; };
+		EA8EEFD914FE0C6800373D59 /* button_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_up.png; sourceTree = "<group>"; };
+		EA8EEFDA14FE0C6800373D59 /* checkmarkControllerIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkmarkControllerIcon.png; sourceTree = "<group>"; };
+		EA8EEFDB14FE0C6800373D59 /* deleteMeIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = deleteMeIcon.png; sourceTree = "<group>"; };
+		EA8EEFDC14FE0C6800373D59 /* detailEditIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = detailEditIcon.png; sourceTree = "<group>"; };
+		EA8EEFDD14FE0C6800373D59 /* disclosureButtonControllerIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = disclosureButtonControllerIcon.png; sourceTree = "<group>"; };
+		EA8EEFDE14FE0C6800373D59 /* moveMeIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = moveMeIcon.png; sourceTree = "<group>"; };
+		EA8EEFDF14FE0C6800373D59 /* rowControlsIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rowControlsIcon.png; sourceTree = "<group>"; };
+		EABF57BE14FE24BF004526BA /* DisclosureButtonController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisclosureButtonController.h; sourceTree = "<group>"; };
+		EABF57BF14FE24BF004526BA /* DisclosureButtonController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisclosureButtonController.m; sourceTree = "<group>"; };
+		EABF57C014FE24BF004526BA /* DisclosureDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisclosureDetailController.h; sourceTree = "<group>"; };
+		EABF57C114FE24BF004526BA /* DisclosureDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisclosureDetailController.m; sourceTree = "<group>"; };
+		EABF57C214FE24BF004526BA /* DisclosureDetailController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DisclosureDetailController.xib; sourceTree = "<group>"; };
+		EABF57D514FE29E1004526BA /* CheckListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckListController.h; sourceTree = "<group>"; };
+		EABF57D614FE29E1004526BA /* CheckListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckListController.m; sourceTree = "<group>"; };
+		EABF57D814FE2E1E004526BA /* RowControlsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RowControlsController.h; sourceTree = "<group>"; };
+		EABF57D914FE2E1E004526BA /* RowControlsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RowControlsController.m; sourceTree = "<group>"; };
+		EABF57DB14FE3442004526BA /* MoveMeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoveMeController.h; sourceTree = "<group>"; };
+		EABF57DC14FE3443004526BA /* MoveMeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoveMeController.m; sourceTree = "<group>"; };
+		EABF57DE14FE38E1004526BA /* DeleteMeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeleteMeController.h; sourceTree = "<group>"; };
+		EABF57DF14FE38E2004526BA /* DeleteMeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeleteMeController.m; sourceTree = "<group>"; };
+		EABF57E114FE3939004526BA /* computers.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = computers.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA8EEF8F14FDF83100373D59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA8EEF9714FDF83100373D59 /* UIKit.framework in Frameworks */,
+				EA8EEF9914FDF83100373D59 /* Foundation.framework in Frameworks */,
+				EA8EEF9B14FDF83100373D59 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA8EEF8714FDF83100373D59 = {
+			isa = PBXGroup;
+			children = (
+				EA8EEF9514FDF83100373D59 /* Frameworks */,
+				EA8EEF9C14FDF83100373D59 /* NavTable */,
+				EA8EEF9314FDF83100373D59 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA8EEF9314FDF83100373D59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA8EEF9214FDF83100373D59 /* NavTable.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA8EEF9514FDF83100373D59 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA8EEF9614FDF83100373D59 /* UIKit.framework */,
+				EA8EEF9814FDF83100373D59 /* Foundation.framework */,
+				EA8EEF9A14FDF83100373D59 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA8EEF9C14FDF83100373D59 /* NavTable */ = {
+			isa = PBXGroup;
+			children = (
+				EABF57DE14FE38E1004526BA /* DeleteMeController.h */,
+				EABF57DF14FE38E2004526BA /* DeleteMeController.m */,
+				EABF57D514FE29E1004526BA /* CheckListController.h */,
+				EABF57D614FE29E1004526BA /* CheckListController.m */,
+				EABF57BE14FE24BF004526BA /* DisclosureButtonController.h */,
+				EABF57BF14FE24BF004526BA /* DisclosureButtonController.m */,
+				EABF57C014FE24BF004526BA /* DisclosureDetailController.h */,
+				EABF57C114FE24BF004526BA /* DisclosureDetailController.m */,
+				EABF57C214FE24BF004526BA /* DisclosureDetailController.xib */,
+				EABF57DB14FE3442004526BA /* MoveMeController.h */,
+				EABF57DC14FE3443004526BA /* MoveMeController.m */,
+				EA8EEFA514FDF83100373D59 /* NavTableAppDelegate.h */,
+				EA8EEFA614FDF83100373D59 /* NavTableAppDelegate.m */,
+				EA8EEFA814FDF83100373D59 /* NavTableMasterViewController.h */,
+				EA8EEFA914FDF83100373D59 /* NavTableMasterViewController.m */,
+				EA8EEFAE14FDF83100373D59 /* NavTableMasterViewController.xib */,
+				EABF57D814FE2E1E004526BA /* RowControlsController.h */,
+				EABF57D914FE2E1E004526BA /* RowControlsController.m */,
+				EA8EEFBF14FE041100373D59 /* SecondLevelViewController.h */,
+				EA8EEFC014FE041100373D59 /* SecondLevelViewController.m */,
+				EA8EEF9D14FDF83100373D59 /* Supporting Files */,
+			);
+			path = NavTable;
+			sourceTree = "<group>";
+		};
+		EA8EEF9D14FDF83100373D59 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EABF57E114FE3939004526BA /* computers.plist */,
+				EA8EEFD714FE0C6800373D59 /* navImages */,
+				EA8EEF9E14FDF83100373D59 /* NavTable-Info.plist */,
+				EA8EEF9F14FDF83100373D59 /* InfoPlist.strings */,
+				EA8EEFA214FDF83100373D59 /* main.m */,
+				EA8EEFA414FDF83100373D59 /* NavTable-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA8EEFD714FE0C6800373D59 /* navImages */ = {
+			isa = PBXGroup;
+			children = (
+				EA8EEFD814FE0C6800373D59 /* button_down.png */,
+				EA8EEFD914FE0C6800373D59 /* button_up.png */,
+				EA8EEFDA14FE0C6800373D59 /* checkmarkControllerIcon.png */,
+				EA8EEFDB14FE0C6800373D59 /* deleteMeIcon.png */,
+				EA8EEFDC14FE0C6800373D59 /* detailEditIcon.png */,
+				EA8EEFDD14FE0C6800373D59 /* disclosureButtonControllerIcon.png */,
+				EA8EEFDE14FE0C6800373D59 /* moveMeIcon.png */,
+				EA8EEFDF14FE0C6800373D59 /* rowControlsIcon.png */,
+			);
+			path = navImages;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA8EEF9114FDF83100373D59 /* NavTable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA8EEFB614FDF83100373D59 /* Build configuration list for PBXNativeTarget "NavTable" */;
+			buildPhases = (
+				EA8EEF8E14FDF83100373D59 /* Sources */,
+				EA8EEF8F14FDF83100373D59 /* Frameworks */,
+				EA8EEF9014FDF83100373D59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NavTable;
+			productName = NavTable;
+			productReference = EA8EEF9214FDF83100373D59 /* NavTable.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA8EEF8914FDF83100373D59 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = EA8EEF8C14FDF83100373D59 /* Build configuration list for PBXProject "NavTable" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EA8EEF8714FDF83100373D59;
+			productRefGroup = EA8EEF9314FDF83100373D59 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA8EEF9114FDF83100373D59 /* NavTable */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA8EEF9014FDF83100373D59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA8EEFA114FDF83100373D59 /* InfoPlist.strings in Resources */,
+				EA8EEFB014FDF83100373D59 /* NavTableMasterViewController.xib in Resources */,
+				EA8EEFE014FE0C6800373D59 /* button_down.png in Resources */,
+				EA8EEFE114FE0C6800373D59 /* button_up.png in Resources */,
+				EA8EEFE214FE0C6800373D59 /* checkmarkControllerIcon.png in Resources */,
+				EA8EEFE314FE0C6800373D59 /* deleteMeIcon.png in Resources */,
+				EA8EEFE414FE0C6800373D59 /* detailEditIcon.png in Resources */,
+				EA8EEFE514FE0C6800373D59 /* disclosureButtonControllerIcon.png in Resources */,
+				EA8EEFE614FE0C6800373D59 /* moveMeIcon.png in Resources */,
+				EA8EEFE714FE0C6800373D59 /* rowControlsIcon.png in Resources */,
+				EABF57C514FE24BF004526BA /* DisclosureDetailController.xib in Resources */,
+				EABF57E214FE3939004526BA /* computers.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA8EEF8E14FDF83100373D59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA8EEFA314FDF83100373D59 /* main.m in Sources */,
+				EA8EEFA714FDF83100373D59 /* NavTableAppDelegate.m in Sources */,
+				EA8EEFAA14FDF83100373D59 /* NavTableMasterViewController.m in Sources */,
+				EA8EEFC114FE041100373D59 /* SecondLevelViewController.m in Sources */,
+				EABF57C314FE24BF004526BA /* DisclosureButtonController.m in Sources */,
+				EABF57C414FE24BF004526BA /* DisclosureDetailController.m in Sources */,
+				EABF57D714FE29E1004526BA /* CheckListController.m in Sources */,
+				EABF57DA14FE2E1E004526BA /* RowControlsController.m in Sources */,
+				EABF57DD14FE3443004526BA /* MoveMeController.m in Sources */,
+				EABF57E014FE38E2004526BA /* DeleteMeController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EA8EEF9F14FDF83100373D59 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA8EEFA014FDF83100373D59 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EA8EEFAE14FDF83100373D59 /* NavTableMasterViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA8EEFAF14FDF83100373D59 /* en */,
+			);
+			name = NavTableMasterViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA8EEFB414FDF83100373D59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EA8EEFB514FDF83100373D59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA8EEFB714FDF83100373D59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NavTable/NavTable-Prefix.pch";
+				INFOPLIST_FILE = "NavTable/NavTable-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EA8EEFB814FDF83100373D59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NavTable/NavTable-Prefix.pch";
+				INFOPLIST_FILE = "NavTable/NavTable-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA8EEF8C14FDF83100373D59 /* Build configuration list for PBXProject "NavTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA8EEFB414FDF83100373D59 /* Debug */,
+				EA8EEFB514FDF83100373D59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA8EEFB614FDF83100373D59 /* Build configuration list for PBXNativeTarget "NavTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA8EEFB714FDF83100373D59 /* Debug */,
+				EA8EEFB814FDF83100373D59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA8EEF8914FDF83100373D59 /* Project object */;
+}
